@@ -1,7 +1,9 @@
-# syslog-ng
-
+### syslog-ng installation
 chkconfig rsyslogd off
 
-yum install -y syslog-ng
-chkconfig syslog-ng on
-service syslog-ng start
+yum install -y syslog-ng<br>
+chkconfig syslog-ng on<br>
+service syslog-ng start<br>
+
+### syslog-ng config
+copy syslog-ng.conf to /etc/syslog-ng/<br>
